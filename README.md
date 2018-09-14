@@ -1,0 +1,1 @@
+The State of California gathers data about water usage and production. Currently, this data is difficult to analyze due to a clunky format and poor quality. This repository includes work to address both of these deficiencies.
