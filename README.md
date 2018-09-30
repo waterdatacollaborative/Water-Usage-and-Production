@@ -16,6 +16,4 @@ LIST OF DIFFERENT FORMATS/CORRESPONDING OUTPUTS
 
 ## Data Hygiene
 
-In addition to transforming the data into a more useful format, we also provide 
-
-PUT SOME STUFF HERE
+In addition to transforming the data into a more useful format, there is an included script which converts the original data set into a single dataframe and creates a dictionary that tags each column with keys that identify string and/or number quality. These tags include capitalization errors, consistency in nonalphanumeric notation, misspellings, variance in numerical digits, etc. Suggestion is that these tags be used to model a data cleaning algorithm to take steps toward improving dataset quailty. Another option is to possibly make a histogram of tags (a qualitative index will need to be made as some tags return arrays and others numbers) to visualize data quality. A qualitative view of the tags would assist in identifying high error columns/fields, a potentially useful metric for updating the way in the which the EARs are submitted.  
