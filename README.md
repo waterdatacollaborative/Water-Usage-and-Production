@@ -21,3 +21,23 @@ In this format, water deliveries are tabulated for a variety of destination cate
 ## Data Hygiene
 
 In addition to transforming the data into a more useful format, there is an included script which converts the original data set into a single dataframe and creates a dictionary that tags each column with keys that identify string and/or number quality. These tags include capitalization errors, consistency in nonalphanumeric notation, misspellings, variance in numerical digits, etc. These tags be used to model a data cleaning algorithm to take steps toward improving dataset quailty. Future work would include making a histogram of tags (a qualitative index will need to be made as some tags return arrays and others numbers) to visualize data quality. A qualitative view of the tags would assist in identifying high error columns/fields, a potentially useful metric for updating the way in the which the EARs are submitted.  
+
+## How-to
+
+The following libraries are required to run these scripts:
+
+* Python3
+
+* Jupyter
+
+* pandas
+
+* NumPy
+
+The easiest way to obtain all of these requirements is via the [Anaconda Distribution](https://www.anaconda.com/download/), a popular and flexible Python data science platform.
+
+To run the codes, simply start a Jupyter Notebook server in the main directory by typing
+```bash
+jupyter notebook
+```
+Then, you can run each of the three main notebooks individually according to [standard Jupyter Notebook usage](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). There is also an example workflow notebook that shows how to load the raw data, and a few different ways to play with it.
