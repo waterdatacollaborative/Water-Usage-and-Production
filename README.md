@@ -41,3 +41,8 @@ To run the codes, simply start a Jupyter Notebook server in the main directory b
 jupyter notebook
 ```
 Then, you can run each of the three main notebooks (EAR_to_WaterProduced.ipynb and EAR_to_WaterDelivered.ipynb for transforming the data, and dataInspection.ipynb for investigating data errors) individually according to [standard Jupyter Notebook usage](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). There is also an example workflow notebook that shows how to load the raw data, and a few different ways to play with it. Results from the data transformation notebooks are by default written to the outputData folder.
+
+For the dataInspection notebook, one more package is required (to do the spellchecking of data entries). This can be easily installed with pip, a package manager installed with the Anaconda Distribution:
+```bash
+pip install pyenchant
+```
